@@ -5,7 +5,7 @@ import HomeView from './views/HomeView.vue';
 import AboutView from './views/AboutView.vue';
 
 const routes = [
-  { path: '/:page', component: View, children: [
+  { path: '/', component: View, children: [
     { path: 'home', component: HomeView },
     { path: 'about', component: AboutView },
   ]},

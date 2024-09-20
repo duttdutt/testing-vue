@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-<script setup>
-import { ref, reactive } from 'vue';
-
-const image = ref(0);
-const change = () => image.value++;
-</script>
-
-<template>
-    <button @click="change">{{ image }}</button>
-=======
 <script setup lang="ts">
 const sum = () => {}
 sum()
@@ -36,7 +25,6 @@ sum()
     </aside>
     <router-view />
   </main>
->>>>>>> refs/remotes/origin/main
 </template>
 
 <style scoped>
